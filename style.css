@@ -28,6 +28,7 @@ body {
   overflow: hidden;
   /* Eliminamos top, left y transform translate */
   overflow: hidden; /* Seguridad para que nada salga del cuadrado */
+  cursor: pointer; /* Cambia la flecha por la mano clásica de link */
 }
 
 .hero-title {
@@ -37,7 +38,6 @@ body {
   color: black;
   font-family: "Helvetica", Arial, sans-serif; /* Fuente más limpia tipo ticket */
   z-index: 10;
-  pointer-events: none;
   display: flex;
   flex-direction: column;
   gap: 20px;
